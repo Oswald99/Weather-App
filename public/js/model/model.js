@@ -33,7 +33,6 @@ export default class Model {
       })
       .then((data) => {
         this.view.showWeatherOurCity(data);
-        
       })
       .catch((err) => console.log("Request Failed", err));
   }
