@@ -2,7 +2,7 @@
 
 Weather App made with vanilla JS using OpenWeather API. There are also widgets showing the weather at user's location and the current exchange rate (Api Privatbank).
 
-![alt tag](http://images.mony.com.ua/oswald/161107979402_kiss_48kb.jpg)
+![alt tag](http://images.mony.com.ua/oswald/161108223848_kiss_48kb.jpg)
 
 ***
 - JavaScript 
