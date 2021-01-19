@@ -54,6 +54,7 @@ export default class View {
         ${value.weather[0].description.toUpperCase()}  |
         Wind Speed ${value.wind.speed} m/s  |
         Visibility ${value.visibility / 1000} km
+        <button type="button" class="float-right cng btn btn-outline-warning btn-sm ml-1" value="${key}">&Xi;</button>
         <button type="button" class="float-right del btn btn-outline-warning btn-sm ml-1" value="${key}">&times;</button>
         </div>`
       );

@@ -30,5 +30,6 @@ export default class Controller {
     this.view.mainButton.addEventListener("click", this.getWeather);
     this.view.clearButton.addEventListener("click", this.clearCity);
     $("#app").on("click", ".del", this.delWeatherCard);
+    $("#app").on("click", ".cng", this.cngWeatherCard);
   }
 }
