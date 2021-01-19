@@ -78,7 +78,7 @@ export default class View {
   showExchangeRates(data) {
     this.widgetBlock.insertAdjacentHTML(
       "afterbegin",
-      `<div id = "wid1" class="col-auto order-2">
+      `<div id = "wid1" class="col-auto order-2 mr-5">
         <ul class="list-group list-group-flush"> <h5>Currency Exchang</h5>
         <li class="list-group-item">${data[0].ccy}: Buy ${data[0].buy} | Sale ${data[0].sale}</li>
         <li class="list-group-item">${data[1].ccy}: Buy ${data[1].buy} | Sale ${data[1].sale}</li>
